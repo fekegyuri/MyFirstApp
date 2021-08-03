@@ -1,0 +1,27 @@
+h1 {
+  color: MediumBlue;
+  background: LightBlue;
+  margin: 50px 300px 35px 300px;
+  border: 1px dotted DarkBlue;
+  text-align: center
+}
+
+h2 {
+  color: #FF0000;
+ 
+}
+
+div {
+  background: orange;
+  margin: 10px 700px 10px 300px;
+  padding: 10px 10px 10px 10px;
+  border: solid black;
+  border-width: 1px 3px 4px 1px;
+ 
+}
+
+label {
+  background: yellow;
+  margin-left: 10px;
+}
+

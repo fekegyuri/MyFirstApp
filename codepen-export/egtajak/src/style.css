@@ -1,0 +1,31 @@
+div {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 5px solid darkblue;
+  margin-left: 10%;
+  width: 200px;
+}
+
+p {
+  padding: 40px;
+  margin: 0
+}
+
+.north {
+  background: red;
+}
+
+.east {
+  background: yellow;
+}
+
+.south {
+  background: lightblue;
+}
+
+.west {
+  background: blue;
+}

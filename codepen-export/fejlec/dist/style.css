@@ -1,0 +1,58 @@
+#fejlec {
+  height: 70px;
+  width: 100%;
+  background: purple;
+  padding: 0 60px;
+  
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  
+  position: fixed;
+  top: 10px;
+  left: 0;
+}
+
+.menu {
+  height: 30px;
+  background: cyan;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+#menu1 {
+  width: 100px;
+}
+
+#menu2 {
+  width: 200px;
+}
+
+#menu3 {
+  width: 100px;
+}
+
+#oldal {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 90px 100px 10px 100px;
+}
+
+main {
+  background: yellow;
+  flex-grow: 4;
+}
+
+aside {
+  background: lime;
+  flex-grow: 1;
+}
+
+footer {
+  background: lightgrey;
+  height: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

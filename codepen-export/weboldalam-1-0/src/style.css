@@ -1,0 +1,49 @@
+#allpage {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+img {
+  width: 800px;
+}
+
+.cim {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222 grey;
+}
+
+main {
+  margin: auto;
+  width: 600px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.quote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: #263238;
+  padding: 30px 50px;
+  position: relative;
+  display: block;
+}
+
+p {
+  margin: 20px 50px;  
+}
+
+ul {
+  list-style-type: square;
+  margin: 20px 50px;
+}
+
+.symbol {
+  display: block;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  font-color: red;
+}

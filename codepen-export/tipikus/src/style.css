@@ -1,0 +1,45 @@
+#fejlec {
+  height: 50px;
+  background: purple;
+  
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  height: 30px;
+  background: cyan;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+#menu1 {
+  width: 100px;
+}
+
+#menu2 {
+  width: 200px;
+}
+
+#menu3 {
+  width: 100px;
+}
+
+#oldal {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#bal {
+  background: yellow;
+  flex-grow: 4;
+}
+
+#jobb {
+  background: lime;
+  flex-grow: 1;
+}

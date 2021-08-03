@@ -1,0 +1,91 @@
+#weboldal {
+  width: 900px;
+  margin: auto;
+}
+
+nav {
+  background: black;
+  display: flex;
+  justify-content: center; 
+}
+
+.menu {
+  margin-left: 20px;
+  margin-right: 20px; 
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px; 
+}
+
+.sectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pic {
+  font-family: 'Abril Fatface', cursive;
+  background: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-position: center;
+  padding: 150px 25px 30px 60px;
+  width: 300px;
+}
+
+#hi {
+  font-size: 32px;
+}
+
+#anakin {
+  font-size: 72px;
+}
+
+.szoveg {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  padding: 20px 20px;
+}  
+
+.szoveg.alcim {
+  font-family: 'Merriweather', serif;
+  color: #222222;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.idezet {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 34px;
+  color: white;
+  background: #222222;
+  border: 1px solid grey;
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+
+blockquote {
+  width: 300px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  left: 2px;
+  top: -15px;
+  font-size: 80px;
+}

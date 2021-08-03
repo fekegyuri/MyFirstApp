@@ -1,0 +1,15 @@
+h1 {
+  color: #FF3366;
+}
+
+h2 {
+  color: #8833FF;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.pink {
+  color: pink;
+}
