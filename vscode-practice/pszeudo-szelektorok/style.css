@@ -1,0 +1,14 @@
+.container {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.elements {
+  border: 1px solid black;
+  padding: 15px;
+
+}
+
+.elements:hover {
+  background: salmon;
+}

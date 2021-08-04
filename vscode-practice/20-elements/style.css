@@ -1,0 +1,27 @@
+.container {
+    width: 471px;    
+    padding: 15px;
+    border: 3px solid #6495ED;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.b {
+    background: salmon;
+}
+
+.elements.a {
+    width: 30px;
+    height: 30px;
+    background: #6495ED;
+}
+
+.elements.b {
+    width: 30px;
+    height: 30px;
+    background: purple;
+}
