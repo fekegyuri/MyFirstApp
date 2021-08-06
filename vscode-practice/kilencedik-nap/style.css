@@ -5,3 +5,12 @@
 li {
     background: turquoise;
 }
+
+.doboz {
+    width: 100px;
+    height: 100px;
+}
+
+.kontener {
+    display: flex;
+}
