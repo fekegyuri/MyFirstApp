@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gombok</title>
+</head>
+<body>
+    <input type="text" id="text" value="blue">
+    <button id="button-1">Megnyomom</button>
+    <button id="button-2">Ezt is megnyomom</button>
+    <button id="button-3">Meg merjem nyomni?</button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $('#button-1').click(() => {
+            console.log('Igen, most rámkattintottál.')
+        })
+
+        $('#button-2').click(() => {
+            $('#button-1').text('Megnyomtad a másodikat.')
+        })
+
+        $('#button-3').click(() => {
+            $('button').css('background-color', 'magenta')
+            $('#button-3').css('background-color', $('#text').val())
+           // $('#button-3').attr('disabled', true)
+        })
+    </script>  
+</body>
+</html>
